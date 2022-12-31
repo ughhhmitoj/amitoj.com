@@ -54,3 +54,12 @@ button{
     border-radius: 12px;
     font-weight: 700;
 }
+
+.placeholder{
+    width: 50%;
+    height: 70%;
+    background-color: lightgray;
+}
+.logo{
+    width: 10%;
+}
