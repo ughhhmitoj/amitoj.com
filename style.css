@@ -1,0 +1,21 @@
+a, p{
+    text-decoration-line: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.section-one{
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
