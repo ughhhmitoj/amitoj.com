@@ -12,16 +12,41 @@ h1{
 
 .section-one{
     background-color: #1f2937;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
 }
 
 ul{
     list-style: none;
     display: flex;
     gap: 24px;
+}
+
+.banner{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content{
+    width: 50%;
+}
+
+button{
+    background-color:  #3882f6; 
+    color: white;
+    padding: 10px ;
+    border-radius: 12px;
+    font-weight: 700;
 }
