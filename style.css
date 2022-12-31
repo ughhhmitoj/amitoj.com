@@ -19,3 +19,7 @@ h1{
     justify-content: space-between;
     gap: 20px;
 }
+
+ul{
+    list-style: none;
+}
