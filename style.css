@@ -10,6 +10,27 @@ h1{
     color: #f9faf8;
 }
 
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+button{
+    background-color:  #3882f6; 
+    color: white;
+    padding: 10px ;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+
 .section-one{
     background-color: #1f2937;
     padding: 10px;
@@ -30,11 +51,6 @@ h1{
     align-items: center;
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    gap: 24px;
-}
 
 .banner{
     display: flex;
@@ -47,14 +63,6 @@ ul{
     width: 50%;
 }
 
-button{
-    background-color:  #3882f6; 
-    color: white;
-    padding: 10px ;
-    border-radius: 12px;
-    font-weight: 700;
-}
-
 .placeholder{
     width: 50%;
     height: 70%;
@@ -62,4 +70,23 @@ button{
 }
 .logo{
     width: 10%;
+}
+
+.section-two{
+    display: flex;
+    min-height: 30vh;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-box{
+    display: block;
+}
+.photo{
+    border-radius :12px;
+    border-color:#3882f6 ;
+    width: 150px;
+    height: 150px;
+    background-color: lightgrey;
 }
