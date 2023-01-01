@@ -90,3 +90,11 @@ button{
     height: 150px;
     background-color: lightgrey;
 }
+
+.photobox-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
