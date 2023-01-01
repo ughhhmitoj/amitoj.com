@@ -141,3 +141,11 @@ quote{
     font-weight: 900px;
 }
 
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
